@@ -17,4 +17,6 @@ if(isset($_POST["chat_message_id"]))
 	$statement->execute();
 }
 
+// WHERE chat_message_id = '".$_POST["chat_message_id"]."'
+
 ?>
